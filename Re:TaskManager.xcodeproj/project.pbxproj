@@ -15,6 +15,7 @@
 		D422FDCF2C88B72200C23E28 /* Re_TaskManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D422FDCE2C88B72200C23E28 /* Re_TaskManagerTests.swift */; };
 		D422FDD92C88B72200C23E28 /* Re_TaskManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D422FDD82C88B72200C23E28 /* Re_TaskManagerUITests.swift */; };
 		D422FDDB2C88B72200C23E28 /* Re_TaskManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D422FDDA2C88B72200C23E28 /* Re_TaskManagerUITestsLaunchTests.swift */; };
+		D4A4E1762C88D6CC00F32703 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4A4E1752C88D6CC00F32703 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D422FDD42C88B72200C23E28 /* Re:TaskManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Re:TaskManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D422FDD82C88B72200C23E28 /* Re_TaskManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Re_TaskManagerUITests.swift; sourceTree = "<group>"; };
 		D422FDDA2C88B72200C23E28 /* Re_TaskManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Re_TaskManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4A4E1752C88D6CC00F32703 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		D422FDB92C88B72100C23E28 /* Re:TaskManager */ = {
 			isa = PBXGroup;
 			children = (
+				D4A4E1752C88D6CC00F32703 /* GoogleService-Info.plist */,
 				D422FDBA2C88B72100C23E28 /* Re_TaskManagerApp.swift */,
 				D422FDBC2C88B72100C23E28 /* ContentView.swift */,
 				D422FDBE2C88B72100C23E28 /* Item.swift */,
@@ -238,6 +241,7 @@
 			files = (
 				D422FDC52C88B72200C23E28 /* Preview Assets.xcassets in Resources */,
 				D422FDC12C88B72200C23E28 /* Assets.xcassets in Resources */,
+				D4A4E1762C88D6CC00F32703 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
